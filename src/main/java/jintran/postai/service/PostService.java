@@ -1,2 +1,4 @@
-package jintran.postai.service;public class PostService {
+package jintran.postai.service;
+
+public class PostService {
 }

@@ -1,2 +1,4 @@
-package jintran.postai.formatter;public class CategoryFormatter {
+package jintran.postai.formatter;
+
+public class CategoryFormatter {
 }

@@ -23,7 +23,41 @@ tasks.withType(JavaCompile) {
 
 dependencies {
     compileOnly('javax.servlet:javax.servlet-api:4.0.1')
+    implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.23'
+    // thư viện html
+    // https://mvnrepository.com/artifact/org.springframework/spring-webmvc
+    implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.23'
+    // https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf-spring5
+    implementation group: 'org.thymeleaf', name: 'thymeleaf-spring5', version: '3.1.1.RELEASE'
 
+    // https://mvnrepository.com/artifact/nz.net.ultraq.thymeleaf/thymeleaf-layout-dialect
+    implementation group: 'nz.net.ultraq.thymeleaf', name: 'thymeleaf-layout-dialect', version: '3.1.0'
+
+    // thư viê mySQL
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.33'
+
+    // thư viện jsp
+    implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.23'
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.2")
+    implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.2")
+
+    compileOnly('javax.servlet:javax.servlet-api:4.0.1')
+    implementation group: 'commons-fileupload', name: 'commons-fileupload', version: '1.4'
+
+    // thư viện hibernate-core
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+    implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.6.10.Final'
+
+    implementation group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.7.0'
+
+    /*validate các trường dữ liệu trong form.*/
+    // https://mvnrepository.com/artifact/javax.validation/validation-api
+    implementation group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-validator
+    implementation group: 'org.hibernate', name: 'hibernate-validator', version: '6.0.10.Final'
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 }

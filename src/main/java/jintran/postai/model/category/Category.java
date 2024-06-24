@@ -1,4 +1,4 @@
-package jintran.postai.model;
+package jintran.postai.model.category;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

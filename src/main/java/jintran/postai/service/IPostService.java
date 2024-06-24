@@ -1,2 +1,4 @@
-package jintran.postai.service;public interface IPostService {
+package jintran.postai.service;
+
+public interface IPostService {
 }

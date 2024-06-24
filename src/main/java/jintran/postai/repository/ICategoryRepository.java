@@ -1,2 +1,4 @@
-package jintran.postai.repository;public class ICategoryReposity {
+package jintran.postai.repository;
+
+public interface ICategoryRepository {
 }

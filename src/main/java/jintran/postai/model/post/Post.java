@@ -1,4 +1,6 @@
-package jintran.postai.model;
+package jintran.postai.model.post;
+
+import jintran.postai.model.category.Category;
 
 import javax.persistence.*;
 
