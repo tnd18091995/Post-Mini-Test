@@ -1,7 +1,7 @@
 package jintran.postai.Uri;
 
 public class PostRequestUri {
-    public static final String POSTS = "/posts";
+    public static final String POST = "/post";
     public static final String BLANK = "";
     public static final String SLASH = "/";
     public static final String CREATE = "/create";

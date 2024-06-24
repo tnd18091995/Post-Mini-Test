@@ -1,4 +1,6 @@
 package jintran.postai.service;
 
-public interface IPostService {
+import jintran.postai.model.post.Post;
+
+public interface IPostService  extends IGenerateService <Post>{
 }
